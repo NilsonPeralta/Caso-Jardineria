@@ -132,14 +132,15 @@
     height: 30px;
     }
 
-    #list-group{
+    #form-check{
         position: relative;
-    margin-left:80%;
-    margin-top: 5%;
-    height: 20px;
+    
+    margin-left:75%;
+    margin-top: 1%;
+    height: 10px;
     }
 
-
+    
 
 
 
@@ -155,7 +156,7 @@
 
     <div>
 
-        <h1 style="text-align: center;">
+        <h1 class="display-3" style="text-align: center;">
             Seguimiento
         </h1>
 
@@ -168,18 +169,37 @@
     </div>
 </div>
 
-    <div>
-        <ul id="list-group" class="list-group">
-            <li>Salida del local</li>
-            <li>Llegada a la paquetería</li>
-            <li>Entrega al repartidor</li>
-            <li>Llegada al domicilio</li>
-          </ul>
-    </div>
+<div id= "form-check" class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      Llegada a la paquetería
+    </label>
+  </div>
+
+  <div id= "form-check" class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      Salida del Local
+    </label>
+  </div>
+
+<div id= "form-check" class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Entrega al repartidor
+    </label>
+  </div>
+
+  <div id= "form-check" class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Llegada al domicilio
+    </label>
+  </div>
 
     <div style="margin-left:20%;">
 
-    <img src="https://map.viamichelin.com/map/carte?map=viamichelin&z=10&lat=-33.44632&lon=-70.66754&width=550&height=382&format=png&version=latest&layer=background&debug_pattern=.*" alt="">
+    <img id="img" src="https://map.viamichelin.com/map/carte?map=viamichelin&z=10&lat=-33.44632&lon=-70.66754&width=550&height=382&format=png&version=latest&layer=background&debug_pattern=.*" alt="">
 
 </div>
 </body>
