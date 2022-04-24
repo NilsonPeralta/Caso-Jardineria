@@ -1,0 +1,45 @@
+-- Estilos CSS Cuenta --
+    
+* {
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container-all img{
+    width: 600px;
+    height: 550px;
+    float: left;
+    margin-left: -150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.container-all h3{
+
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.container-all p{
+
+    margin-right: 21px ;
+    float:right;
+
+}
