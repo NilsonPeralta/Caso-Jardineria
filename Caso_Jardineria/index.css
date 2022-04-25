@@ -1,6 +1,6 @@
 #fondo {
     background-color: antiquewhite;
-    padding: 30px;
+    padding: 25px;
 }
 
 #Compañia {
@@ -21,7 +21,7 @@
     border-radius: 1em;
     width: 100px;
     height: 100px;
-    background-color: antiquewhite;
+    background-color: rgba(213, 213, 205, 0.438);
 }
 
 #Titulo{
@@ -78,14 +78,14 @@
     width: 18rem;
     display: inline-block;
     block-size: auto;
-    margin-right: 90px;
+    margin-right: 95px;
 }
 
 #carta3{
     width: 18rem;
     display: inline-block;
     block-size: auto;
-    margin-right: 90px;
+    margin-right: 95px;
 }
 
 #carta4{
@@ -109,7 +109,7 @@
     block-size: auto;
     top: -285px;
     left: 390px;
-    margin-right: 90px;
+    margin-right: 95px;
 }
 
 #carta7{
@@ -119,7 +119,7 @@
     block-size: auto;
     top: -285px;
     left: 390px;
-    margin-right: 90px;
+    margin-right: 95px;
 }
 
 #carta8{
