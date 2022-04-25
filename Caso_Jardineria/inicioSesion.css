@@ -1,0 +1,70 @@
+#fondo{
+    background-color: antiquewhite;
+    padding: 25px;
+}
+#Compañia {
+    display: block;
+    block-size: auto;
+    width: 440px;
+    border: 3px solid rgb(238, 203, 203);
+    background-color: rgb(193, 255, 234);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+}
+#Logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 1em;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(213, 213, 205, 0.438);
+}
+#Titulo{
+    font-style: italic;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+#Slogan{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contacto{
+    float: right;
+    margin-right: 15px;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
+
+
+#Caja{
+    display: inline-block;
+    block-size: auto;
+    border: inset turquoise;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 1em;
+}
+#InicioSesion{
+    font-size: 30px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(187, 215, 240);
+    border-bottom: 5px inset rgb(187, 215, 240);
+    border-radius: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+}
+
+#casilla1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#casilla2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
