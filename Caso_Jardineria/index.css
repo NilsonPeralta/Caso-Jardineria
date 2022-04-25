@@ -1,0 +1,132 @@
+#fondo {
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+#Compañia {
+    display: inline-block;
+    block-size: auto;
+    width: 440px;
+    border: 3px solid rgb(238, 203, 203);
+    background-color: rgb(193, 255, 234);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+}
+
+#Logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 1em;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+#Titulo{
+    font-style: italic;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+#Slogan{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Botones{
+    float: right;
+    margin-right: 15px;
+}
+#inicio{
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+}
+#Registrarse{
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+}
+#contacto{
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    
+}
+
+#carousel{
+    margin-right: 15px;
+}
+#foto1{
+    height: 200px;
+}
+
+#foto2{
+    height: 200px;
+}
+
+#foto3{
+    height: 200px;
+}
+#carta1{
+    float: left;
+    width: 18rem;
+    margin-right: 100px;
+}
+
+#carta2{
+    width: 18rem;
+    display: inline-block;
+    block-size: auto;
+    margin-right: 90px;
+}
+
+#carta3{
+    width: 18rem;
+    display: inline-block;
+    block-size: auto;
+    margin-right: 90px;
+}
+
+#carta4{
+    width: 18rem;
+    display: inline-block;
+    block-size: auto;
+    
+}
+
+#carta5{
+    width: 18rem;
+    display: block;
+    block-size: auto;
+    margin-top: 100px;
+}
+
+#carta6{
+    position: relative;
+    width: 18rem;
+    display: inline-block;
+    block-size: auto;
+    top: -285px;
+    left: 390px;
+    margin-right: 90px;
+}
+
+#carta7{
+    position: relative;
+    width: 18rem;
+    display: inline-block;
+    block-size: auto;
+    top: -285px;
+    left: 390px;
+    margin-right: 90px;
+}
+
+#carta8{
+    width: 18rem;
+    display: inline-block;
+    block-size: auto;
+    top: -285px;
+    left: 390px;
+}
+
