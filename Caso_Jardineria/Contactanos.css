@@ -1,4 +1,4 @@
-#fondo {
+body {
     background:linear-gradient(150deg, rgb(174, 150, 231), rgba(32, 121, 133, 0.938));
     padding: 25px;
     height: 100vh;
@@ -22,7 +22,6 @@
     border-radius: 1em;
     width: 100px;
     height: 100px;
-    background-color: rgba(213, 213, 205, 0.438);
 }
 
 #Titulo{
@@ -38,13 +37,13 @@
 }
 
 .container {
-    display: inline-block;
+    display: block;
     block-size: auto;
     border: inset turquoise;
     padding: 5px;
-    margin-left: 33%;
-    width: 525px;
-    height: 590px;
+    margin: auto;
+    max-width: 525px;
+    height: 600px;
     background-color: aliceblue;
     text-align: center;
     border-radius: 1em;
