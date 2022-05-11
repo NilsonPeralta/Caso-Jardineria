@@ -39,25 +39,29 @@
 
 </head>
 <body id="fondo">
-
+    <div class="row">
     <div class="Compañia">
     <img src="https://images.vexels.com/media/users/3/200975/isolated/preview/7ac53e603584ee235f9d4d0b1e2405ea-planta-dando-mano-con-color-tierra.png" id="Logo" alt="">
     
-    <div>
+    <div class="column">
         <h1 id="Titulo">
             Jardinería Happy Garden
         </h1>
     </div>
+    
     <div>
         <h2 id="Slogan">
             La jardineria de todos para todos
         </h2>
     </div>
+    </div>
+
 </div>
-    <br>
+<div class="row-md-6">
     <div class="container">
         <h3 id="Formulario">Formulario</h3>
         <div class="row">
+
             <form action="" method="post">
             <div class="form-group">
                 <label for="inputNombre">Ingrese Nombre completo:</label>
@@ -81,7 +85,7 @@
                 <input type="text" id="inputCiudad" placeholder="Ej: Santiago" class="form-control" required>
                 <br>
             </div>
-
+            <div class="col">
             <div class="form-group">
                 <label for="">Elija con que se va a identificar:</label>
                 
@@ -89,8 +93,7 @@
                 <div id="rut">
                     <input type="radio" id="inputRut" name="InputIdentificacion" value="1" onclick="habilitar(this)">
                     <label for="inputRut">Ingrese Rut:</label>
-                    <input type="text" id="inputRut" name="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT">
-                    <button type="submit">Validar RUT y Enviar Form</button>
+                    <input type="text" id="inputRut" name="rut" required oninput="checkRut(this)" placeholder="Ingrese RUT"><button type="button" class="btn btn-primary">Validar RUT</button>
                     <script src="validarRUT.js"></script>
                 </div>
                 
@@ -100,23 +103,25 @@
                     <input type="text" name="Pasaporte" placeholder="18AK3421K" disabled="true" required>
                 </div>
                 <br>
-
             </div>
-
+            <div class="col">
             <div class="form-group">
                 
                 <label for="inputComentario">Ingrese un comentario sobre en lo que le gustaria participar:</label>
                 <br>
                 <input type="text" id="inputComentario" placeholder="Ingresar comentario aquí" class="form-control">
-               
+            </div>    
 
             </div>
+            <div class="col">
+                <input type="submit" value="Enviar" id="enviar" class="btn btn-primary">
+                <input type="reset" value="Limpiar" id="limpiar" class="btn btn-danger">
+            </div>
             
-            <input type="submit" value="Enviar" id="enviar" class="btn btn-primary">
-            <input type="reset" value="Limpiar" id="limpiar" class="btn btn-danger">
             </form>
+
         </div>
     </div>
-
+</div>
 </body>
 </html>
