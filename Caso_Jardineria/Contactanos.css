@@ -9,6 +9,7 @@ body {
 .Compañia {
     display: inline-block;
     block-size: auto;
+    box-shadow: 5px 5px 10px;
     width: 440px;
     background: linear-gradient(150deg, rgb(210, 193, 255), lightblue);
     padding: 15px;
@@ -40,6 +41,7 @@ body {
     display: block;
     block-size: auto;
     border: inset turquoise;
+    box-shadow: 5px 5px 10px;
     padding: 5px;
     margin: auto;
     max-width: 525px;
@@ -52,7 +54,7 @@ body {
 .row {
     display: inline-block;
     block-size: auto;
-    width: 400px;
+    width: 450px;
 }
 #Formulario{
     font-size: 30px;
