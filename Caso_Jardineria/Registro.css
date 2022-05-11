@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(150deg, rgb(180, 161, 137), rgb(218, 138, 138));
+    height: 100%;
+    padding: 25px;
+}
+
+.Compañia {
+    display: inline-block;
+    block-size: auto;
+    width: 440px;
+    background: linear-gradient(150deg, rgb(210, 193, 255), lightblue);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+}
+#Logo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 1em;
+    width: 100px;
+    height: 100px;
+}
+
+#Titulo{
+    font-style: italic;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+#Slogan{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contacto{
+    float: right;
+}
+
+#Registro{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 5px inset rgb(187, 215, 240) ;
+    background-color: rgb(187, 215, 240);
+    border-radius: 1em;
+}
+.container{
+    display:inline-block;
+    block-size: auto;
+    width: 525px;
+    height: 513px;
+    background-color: aliceblue;
+    text-align: center;
+    border: solid black;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+    margin-left: 33%;
+}
+
+.row{
+    display: inline-block;
+    block-size: auto;
+    width: 400px;
+}
+
+#ingresar{
+    margin-top: 10px;
+    background-color: rgb(244, 244, 244);
+    border-color: aliceblue;
+}
+
