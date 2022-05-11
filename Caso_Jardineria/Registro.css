@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(150deg, rgb(180, 161, 137), rgb(218, 138, 138));
-    height: 100%;
+    height: 100vh;
     padding: 25px;
 }
 
@@ -36,11 +36,14 @@ body{
 
 #contacto{
     float: right;
+    background:transparent ;
+    border-color:transparent ;
 }
 
 #Registro{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
     border-bottom: 5px inset rgb(187, 215, 240) ;
     background-color: rgb(187, 215, 240);
     border-radius: 1em;
@@ -48,15 +51,16 @@ body{
 .container{
     display:inline-block;
     block-size: auto;
-    width: 525px;
-    height: 513px;
+    max-width: 525px;
+    height: 543px;
     background-color: aliceblue;
     text-align: center;
     border: solid black;
     border-radius: 1em;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 10px;
     padding: 5px;
-    margin-left: 33%;
+    margin: auto;
+    
 }
 
 .row{
@@ -66,8 +70,8 @@ body{
 }
 
 #ingresar{
-    margin-top: 10px;
-    background-color: rgb(244, 244, 244);
-    border-color: aliceblue;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: transparent;
 }
 
