@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(150deg, white, rgb(75, 250, 75));
+    padding: 25px;
+    height: 100vh;
+}
+
+#progress{
+    max-width: 1000px;
+}
+
+#contacto{
+    float:right;
+}
+
+.container{
+    display: block;
+    block-size: auto;
+    padding: 5px;
+    max-width: 230px;
+    border: solid #7c79733b 2px;
+    box-shadow:  0px 0px 10px#70706e;
+    background: linear-gradient(150deg, rgb(255, 255, 255), rgb(177, 177, 247));
+    border-radius: 10px;
+}
+
+
+.Seguimiento{
+    display: block;
+    block-size: auto;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    margin: 50px auto;
+    width: 70%;
+    border: 2px solid #7c79733b;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #70706e;
+    color: white;
+    text-align: center;
+}
+
+#mapa {
+    height: 500px;
+    width: auto;
+    max-width: 500px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#parar {
+    display: block;
+    margin: 20px auto 30px;
+    width: 100px;
+    border: 2px solid #7c79733b;
+    border-radius: 10px;
+    box-shadow: 0 0 4px #70706e;
+    color: black;
+}
+
+#parar:hover {
+    border: 2px solid #2E5E90;
+    box-shadow: 0 0 4px #2E5E90;
+    color: #2E5E90;
+}
