@@ -1,15 +1,15 @@
-#fondo {
-    background-color: antiquewhite;
+body{
+    background-color: rgba(250, 248, 248, 0.888);
     padding: 25px;
 }
 
 #Compañia {
     display: inline-block;
     block-size: auto;
-    width: 440px;
-    border: 3px solid rgb(238, 203, 203);
-    background-color: rgb(193, 255, 234);
-    padding: 15px;
+    width: 380px;
+    border-color: transparent;
+    background:none;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 1em;
 }
@@ -18,45 +18,101 @@
     float: left;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 1em;
-    width: 100px;
-    height: 100px;
-    background-color: rgba(213, 213, 205, 0.438);
+    width: 75px;
+    height: 75px;
 }
 
 #Titulo{
+    display: block;
+    block-size: auto;
     font-style: italic;
-    font-size: 30px;
+    font-size: 15px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 #Slogan{
-    font-size: 15px;
+    display: block;
+    block-size: auto;
+    font-size:15px;
     font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 
 #Botones{
     float: right;
     margin-right: 15px;
 }
+
 #inicio{
-    border-color: antiquewhite;
-    background-color: antiquewhite;
+    border-color: transparent;
+    background: none;
 }
+
+#vinculo1{
+    padding: 5px;
+    color: #54a31b;
+    outline: none;
+    text-decoration: none;
+}
+
+#vinculo1:focus{
+    color: #54a31b;
+}
+#vinculo1:hover{
+    border-bottom: 1px solid;
+    background: rgb(235, 226, 223);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+
 #Registrarse{
-    border-color: antiquewhite;
-    background-color: antiquewhite;
+    border-color: transparent;
+    background: none;
 }
+
+#vinculo2{
+    padding: 5px;
+    color: #54a31b;
+    outline: none;
+    text-decoration: none;
+}
+
+#vinculo2:focus{
+    color: #54a31b;
+}
+
+#vinculo2:hover{
+    border-bottom: 1px solid;
+    background: rgb(235, 226, 223);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
 #contacto{
-    border-color: antiquewhite;
-    background-color: antiquewhite;
+    border-color: transparent;
+    background: none;
     
 }
 
-#carousel{
-    margin-right: 15px;
+#vinculo3{
+    padding: 5px;
+    color: #54a31b;
+    outline: none;
+    text-decoration: none;
 }
+
+#vinculo2:focus{
+    color: #54a31b;
+}
+
+#vinculo3:hover{
+    border-bottom: 1px solid;
+    background: rgb(235, 226, 223);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
 #foto1{
     height: 200px;
 }
